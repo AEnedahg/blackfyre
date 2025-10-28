@@ -29,7 +29,9 @@
     </header>
 
     <header class="lg:flex items-center h-full justify-between hidden max-w-[1440px] mx-auto">
-      <h4 class="text-[24px] font-semibold text-white font-inter">BLACKFYRE</h4>
+        <NuxtLink to="/">
+          <h4 class="text-[24px] font-semibold text-white font-inter">BLACKFYRE</h4>
+        </NuxtLink>
       <div class="flex gap-x-6 text-white text-base">
         <NuxtLink to="/">Dashboard</NuxtLink>
         <NuxtLink to="/nft">NFT</NuxtLink>
